@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans TC", sans-serif;
+}
+
+header {
+  background-color: #212121;
+  display: flex;
+  justify-content: center;
+}
+header h1 {
+  color: #d0eff5;
+}
+
+section.question {
+  margin: 2rem 2rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ededed;
+  border-radius: 8px;
+}
+section.question .q1,
+section.question .q3,
+section.question .q4,
+section.question .q5,
+section.question .q6,
+section.question .q7 {
+  margin: 1rem;
+  padding: 0.5rem;
+  border-radius: 10px;
+  box-shadow: 6px 6px 12px #282828;
+  background-color: #616161;
+}
+section.question .q1 hr,
+section.question .q3 hr,
+section.question .q4 hr,
+section.question .q5 hr,
+section.question .q6 hr,
+section.question .q7 hr {
+  margin: 0.5rem;
+}
+section.question .q1 div.title1,
+section.question .q1 .title3,
+section.question .q1 .title4,
+section.question .q1 .title5,
+section.question .q1 .title6,
+section.question .q1 .title7,
+section.question .q3 div.title1,
+section.question .q3 .title3,
+section.question .q3 .title4,
+section.question .q3 .title5,
+section.question .q3 .title6,
+section.question .q3 .title7,
+section.question .q4 div.title1,
+section.question .q4 .title3,
+section.question .q4 .title4,
+section.question .q4 .title5,
+section.question .q4 .title6,
+section.question .q4 .title7,
+section.question .q5 div.title1,
+section.question .q5 .title3,
+section.question .q5 .title4,
+section.question .q5 .title5,
+section.question .q5 .title6,
+section.question .q5 .title7,
+section.question .q6 div.title1,
+section.question .q6 .title3,
+section.question .q6 .title4,
+section.question .q6 .title5,
+section.question .q6 .title6,
+section.question .q6 .title7,
+section.question .q7 div.title1,
+section.question .q7 .title3,
+section.question .q7 .title4,
+section.question .q7 .title5,
+section.question .q7 .title6,
+section.question .q7 .title7 {
+  color: #81e9fe;
+}
+section.question .q1 div.text1,
+section.question .q1 .text3,
+section.question .q1 .text5,
+section.question .q1 .text6,
+section.question .q1 .text7,
+section.question .q3 div.text1,
+section.question .q3 .text3,
+section.question .q3 .text5,
+section.question .q3 .text6,
+section.question .q3 .text7,
+section.question .q4 div.text1,
+section.question .q4 .text3,
+section.question .q4 .text5,
+section.question .q4 .text6,
+section.question .q4 .text7,
+section.question .q5 div.text1,
+section.question .q5 .text3,
+section.question .q5 .text5,
+section.question .q5 .text6,
+section.question .q5 .text7,
+section.question .q6 div.text1,
+section.question .q6 .text3,
+section.question .q6 .text5,
+section.question .q6 .text6,
+section.question .q6 .text7,
+section.question .q7 div.text1,
+section.question .q7 .text3,
+section.question .q7 .text5,
+section.question .q7 .text6,
+section.question .q7 .text7 {
+  color: #d0eff5;
+  line-height: 2rem;
+  text-indent: 2em;
+}
+section.question .q1 div.text4,
+section.question .q3 div.text4,
+section.question .q4 div.text4,
+section.question .q5 div.text4,
+section.question .q6 div.text4,
+section.question .q7 div.text4 {
+  color: #d0eff5;
+  line-height: 2rem;
+}
+section.question .q2 {
+  margin: 1rem;
+  padding: 0.5rem;
+  border-radius: 10px;
+  box-shadow: 6px 6px 12px #282828;
+  background-color: #616161;
+}
+section.question .q2 hr {
+  margin: 0.5rem;
+}
+section.question .q2 div.title2 {
+  color: #81e9fe;
+}
+section.question .q2 div.text2 {
+  color: #d0eff5;
+  line-height: 2rem;
+  text-indent: 2em;
+}
+section.question .q2 div.text2 a {
+  color: #3ddbfa;
+}/*# sourceMappingURL=style.css.map */
